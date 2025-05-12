@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h2>Sign Up</h2>
+            <!-- Changed the form action to prevent page reload -->
+            <form id="signup-form" action="javascript:void(0);">
+                <div class="input-grp">
+                    <div class="input-file">
+                        <label for="username">Username</label>
+                        <!-- Added id attribute for JavaScript access -->
+                        <input type="text" id="name" placeholder="Name" required />
+                    </div>
+
+                    <div class="input-file">
+                        <label for="email">Email</label>
+                        <!-- Added id attribute for JavaScript access -->
+                        <input type="email" id="email" placeholder="Email" required />
+                    </div>
+
+                    <div class="input-file">
+                        <label for="password">Password</label>
+                        <!-- Added id attribute for JavaScript access -->
+                        <input type="password" id="password" placeholder="Password" required />
+                    </div>
+
+                    <div class="input-file">
+                        <label for="confirm-password">Confirm Password</label>
+                        <!-- Added id attribute for JavaScript access -->
+                        <input type="password" id="confirm-password" placeholder="Confirm Password" required />
+                    </div>
+
+                    <div class="input-file">
+                        <label for="phone-number">Phone Number</label>
+                        <!-- Added id attribute for JavaScript access -->
+                        <input type="number" id="phone-number" placeholder="Phone Number" required />
+                    </div>
+
+                    <div class="input-file">
+                        <label for="address">Address</label>
+                        <!-- Added id attribute for JavaScript access -->
+                        <input type="text" id="address" placeholder="Address" required />
+                    </div>
+
+                    <div class="input-file">
+                        <label for="state">State</label>
+                        <!-- Added id attribute for JavaScript access -->
+                        <input type="text" id="state" placeholder="State" required />
+                    </div>
+
+                    <div class="input-file">
+                        <label for="pin">Pin</label>
+                        <!-- Added id attribute for JavaScript access -->
+                        <input type="text" id="pin" placeholder="Pin" required />
+                    </div>
+
+                    <div class="input-file">
+                        <button type="submit">Submit</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Link to JavaScript file (app.js) -->
+    <script src="app.js"></script>
+</body>
+</html>
